@@ -56,14 +56,14 @@ plugins:
 
 # Site Author
 author:
-  name             : "Pol"
+  name             : "Pol Mestres"
   avatar           : "/images/foto.jpg"
   bio              : "Ph.D. Student<br/>
                      Mechanical and Aerospace Engineering<br/>
                      University of California, San Diego
 
   
-                     **Email:** pomestre [at] ucsd.edu <br/>
+                     **Email:** pomestre [at] ucsd.edu <br/>"
   links:
     - label: "Email"
       icon:  "fas fa-fw fa-envelope"
