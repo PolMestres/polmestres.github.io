@@ -1,41 +1,96 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+@charset "utf-8";
+
+//@import "minimal-mistakes/skins/contrast"; // skin
+@import "minimal-mistakes"; // main partials
+
+.author__avatar {
+    img {
+        max-width: 150px;
+    }
+}
+
+.page {
+    
+    @include breakpoint($large) {
+        float: right;
+        width: calc(100% - #{$right-sidebar-width-narrow});
+        padding-right: 0;
+    }
+
+    @include breakpoint($x-large) {
+      float: right;
+        width: calc(100% - #{$right-sidebar-width});
+        padding-right: 0;
+    }
+}
+
+.author__bio {
+    font-size: $type-size-5;
+
+    @include breakpoint($large) {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
+}
+  
+body {
+    margin: 0em;
+    padding: 0;
+    color: $text-color;
+    font-family: $global-font-family;
+    font-size: 13pt;
+
+    &.overflow--hidden {
+        /* when primary navigation is visible, the content in the background won't scroll */
+        overflow: hidden;
+    }
+}
+
+.sidebar {
+  @include clearfix();
+  // @include breakpoint(max-width $large) {
+  //   /* fix z-index order of follow links */
+  //   position: relative;
+  //   z-index: 10;
+  //   -webkit-transform: translate3d(0, 0, 0);
+  //   transform: translate3d(0, 0, 0);
+  // }
+
+  @include breakpoint($large) {
+    float: left;
+    width: calc(#{$right-sidebar-width-narrow} - 1em);
+    opacity: 0.75;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &.sticky {
+      overflow-y: auto;
+      /* calculate height of nav list
+         viewport height - nav height - masthead x-padding
+      */
+      max-height: calc(100vh - #{$nav-height} - 2em);
+    }
+  }
+
+  @include breakpoint($x-large) {
+    width: calc(#{$right-sidebar-width} - 1em);
+  }
+}
 /*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
+$small: 600px !default;
+$medium: 768px !default;
+$medium-wide: 900px !default;
+$large: 1024px !default;
+$x-large: 1920px !default;
+$max-width: $x-large !default;
 */
-
-@import "vendor/breakpoint/breakpoint"; // media query mixins
-@import "variables";
-@import "mixins";
-@import "vendor/susy/susy";
-
-@import "reset";
-@import "base";
-
-@import "utilities";
-@import "animations";
-@import "tables";
-@import "buttons";
-@import "notices";
-@import "masthead";
-@import "navigation";
-@import "footer";
-@import "syntax";
-
-@import "forms";
-
-@import "page";
-@import "archive";
-@import "sidebar";
-
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
-@import "vendor/magnific-popup/magnific-popup";
-@import "print";
+$right-sidebar-width: 0;
+$right-sidebar-width-narrow: 0;
