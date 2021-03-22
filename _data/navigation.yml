@@ -1,9 +1,14 @@
-main:
-  - title: "About"
-    url: /index/ 
- - title: "Research"
-    url: /research/
-  - title: "Publications"
-    url: /publications/
-  - title: "CV"
-    url: /cv/
+--- 
+main: 
+  - 
+    title: About
+    url: /index
+  - 
+    title: Research
+    url: /research
+  - 
+    title: Publications
+    url: /publications
+  - 
+    title: CV
+    url: /cv
