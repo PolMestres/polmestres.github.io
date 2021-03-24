@@ -57,7 +57,7 @@ plugins:
 # Site Author
 author:
   name             : "Pol Mestres"
-  avatar           : "/images/foto.jpg"
+  avatar           : "/assets/foto.jpg"
   bio              : "Ph.D. Student<br/>
                      Mechanical and Aerospace Engineering<br/>
                      University of California, San Diego
