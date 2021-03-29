@@ -3,4 +3,8 @@ layout: home
 author_profile: true
 ---
 
-Fem aixo i aixo
+### Research
+
+##### Mathematical modelling of epidemics
+
+##### Event-triggered discretizations of optimization flows
