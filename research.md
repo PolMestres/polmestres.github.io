@@ -7,4 +7,5 @@ author_profile: true
 
 ##### Event-triggered discretizations of optimization flows
 
-![state] (/assets/state_space_comparison.pdf)
+(https://github.com/PolMestres/polmestres.github.io/files/6218724/state_space_comparison.pdf)
+
