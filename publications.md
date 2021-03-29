@@ -14,4 +14,4 @@ IEEE Transactions on Automatic Control
 
 ### Thesis
 
-Bachelor's Thesis: Discretization of Optimization Flows through State-Triggered Control [PDF](assets/publications/memoria.pdf)
+Bachelor's: [Discretization of Optimization Flows through State-Triggered Control](https://upcommons.upc.edu/handle/2117/332055) [PDF](assets/publications/memoria.pdf)
