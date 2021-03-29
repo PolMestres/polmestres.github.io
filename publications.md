@@ -1,18 +1,24 @@
 ---
 layout: single
 author_profile: true
-
 ---
 
+---
 
 ### Journal Publications
 
 M. Vaquero, **P. Mestres**, J. Cortés, [Resource-Aware Discretization of Accelerated Optimization Flows](https://arxiv.org/abs/2009.09135),
 *IEEE Transactions on Automatic Control*
 
+---
+
 ### Conference Publications
 
+---
+
 ### Preprints
+
+---
 
 ### Thesis
 
