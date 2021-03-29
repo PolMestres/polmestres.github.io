@@ -5,8 +5,8 @@ author_profile: true
 
 ### Journal Publications
 
-M. Vaquero, **P. Mestres**, J. Cortés, Resource-Aware Discretization of Accelerated Optimization Flows,
-IEEE Transactions on Automatic Control
+M. Vaquero, **P. Mestres**, J. Cortés, [Resource-Aware Discretization of Accelerated Optimization Flows](https://arxiv.org/abs/2009.09135),
+*IEEE Transactions on Automatic Control*
 
 ### Conference Publications
 
@@ -14,4 +14,4 @@ IEEE Transactions on Automatic Control
 
 ### Thesis
 
-Bachelor's: [Discretization of Optimization Flows through State-Triggered Control](https://upcommons.upc.edu/handle/2117/332055) [PDF](assets/publications/memoria.pdf)
+Bachelor's: [Discretization of Optimization Flows through State-Triggered Control](https://upcommons.upc.edu/handle/2117/332055) [[PDF]](assets/publications/memoria.pdf)
