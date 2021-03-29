@@ -3,6 +3,8 @@ layout: single
 author_profile: true
 ---
 
+       
+
 ### Mathematical modelling of epidemics
 
 The COVID-19 pandemic has stressed out the importance of having accurate, interpretable and robust models for the spread of an infectious disease in a population. In this work we build on well-established compartmental models for epidemic spread and include some of the features of the COVID-19 pandemic, like the existence of massive testing capabilities or the presence of wastewater detection plants. The result is a model which is partially tractable analytically and with interpretable parameters which can be used to design control policies to mitigate the spread of the disease. We also analyse its robustness with respect to model mismatches and external disturbances.
