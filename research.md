@@ -1,9 +1,8 @@
 ---
 layout: single
 author_profile: true
----
 
-       
+---      
 
 ### Mathematical modelling of epidemics
 
