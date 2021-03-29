@@ -1,8 +1,9 @@
 ---
 layout: single
 author_profile: true
-
 ---      
+
+---
 
 ### Mathematical modelling of epidemics
 
@@ -10,9 +11,13 @@ The COVID-19 pandemic has stressed out the importance of having accurate, interp
 
 ![sir](assets/sir.png)
 
+---
+
 ### Event-triggered discretizations of optimization flows
 
 Recent interest in first-order optimization algorithms has lead to the formulation of so-called high-resolution differential equations, continuous surrogates for some of the classical discrete-time optimization algorithms exhibiting acceleration. The continuous setting allows the use of some powerful and well-established tools, like Lyapunov functions. This framework can be used to gain some intuition into the still somewhat mysterious phenomenon of acceleration. In this work we study these high-resolution differential equations and the crucial problem of re-discretizing them while maintaining their rate of convergence. We also review a recent paper that proposes a discretization technique by using ideas borrowed from event-triggered control and suggest some improvements on those algorithms in terms of their rate of convergence.
 
 ![title](assets/state_space_comparison.pdf)
+
+---
 
