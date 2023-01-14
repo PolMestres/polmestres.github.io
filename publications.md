@@ -7,9 +7,13 @@ author_profile: true
 
 ### Journal Publications
 
+3.- Feasibility and Regularity Analysis of Safe Stabilizing Controllers under Uncertainty [[pdf]](https://arxiv.org/pdf/2301.04603.pdf), <br />
+**P. Mestres** and J. Cortés, <br />
+*IEEE Control Systems Letters*, submitted.
+
 2.- Optimization-Based Safe Stabilizing Feedback with Guaranteed Region of Attraction [[pdf]](https://arxiv.org/pdf/2203.12550.pdf), <br />
 **P. Mestres** and J. Cortés, <br />
-*IEEE Control Systems Letters*, accepted (with joint submission to 61st IEEE Conference on Decision and Control).
+*IEEE Control Systems Letters*, (with joint submission to 61st IEEE Conference on Decision and Control) 7 (2023) 367-372.
 
 1.- Resource-Aware Discretization of Accelerated Optimization Flows [[pdf]](https://arxiv.org/abs/2009.09135), <br />
 M. Vaquero, **P. Mestres** and J. Cortés, <br />
