@@ -22,7 +22,7 @@ M. Vaquero, **P. Mestres** and J. Cortés, <br />
 ---
 
 ### Conference Publications
-2.- Distributed and Anytime Algorithm for Network Optimization Problems with Separable Structure, <br />
+2.- Distributed and Anytime Algorithm for Network Optimization Problems with Separable Structure [[pdf]](/assets/publications/2023f_DistributedAnytime.pdf), <br />
 **P. Mestres** and J. Cortés, <br />
 *62nd IEEE Conference on Decision and Control*, submitted.
 
