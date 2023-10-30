@@ -7,6 +7,10 @@ author_profile: true
 
 ### Journal Publications
 
+4.- Feasibility Analysis and Regularity Characterization of Distributionally Robust Safe Stabilizing Controllers [[pdf]](/assets/publications/CLF-CBF-DRO.pdf), <br />
+**P. Mestres**, K. Long, N. Atanasov and J. Cortés, <br />
+*IEEE Control Systems Letters*, submitted.
+
 3.- Feasibility and Regularity Analysis of Safe Stabilizing Controllers under Uncertainty [[pdf]](https://arxiv.org/pdf/2301.04603.pdf), <br />
 **P. Mestres** and J. Cortés, <br />
 *Automatica*, submitted.
@@ -24,7 +28,7 @@ M. Vaquero, **P. Mestres** and J. Cortés, <br />
 ### Conference Publications
 2.- Distributed and Anytime Algorithm for Network Optimization Problems with Separable Structure [[pdf]](/assets/publications/2023f_DistributedAnytime.pdf), <br />
 **P. Mestres** and J. Cortés, <br />
-*62nd IEEE Conference on Decision and Control*, submitted.
+*62nd IEEE Conference on Decision and Control*, to appear.
 
 1.- Safe Design for Controlling Epidemic Spreading under Heterogeneous Testing Capabilities [[pdf]](/assets/publications/2021_MeCo-acc.pdf), <br />
 **P. Mestres** and J. Cortés, <br />
