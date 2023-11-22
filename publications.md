@@ -7,6 +7,10 @@ author_profile: true
 
 ### Journal Publications
 
+5.- Robinson’s Counterexample and Regularity Properties of Optimization-Based Controllers [[pdf]](/assets/publications/Robinson.pdf), <br />
+**P. Mestres**, A. Allibhoy and J. Cortés, <br />
+*Systems and Control Letters*, submitted.
+
 4.- Feasibility Analysis and Regularity Characterization of Distributionally Robust Safe Stabilizing Controllers [[pdf]](/assets/publications/CLF-CBF-DRO.pdf), <br />
 **P. Mestres**, K. Long, N. Atanasov and J. Cortés, <br />
 *IEEE Control Systems Letters*, submitted.
