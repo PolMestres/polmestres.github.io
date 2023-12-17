@@ -13,7 +13,7 @@ author_profile: true
 
 4.- Feasibility Analysis and Regularity Characterization of Distributionally Robust Safe Stabilizing Controllers [[pdf]](/assets/publications/CLF-CBF-DRO.pdf), <br />
 **P. Mestres**, K. Long, N. Atanasov and J. Cortés, <br />
-*IEEE Control Systems Letters*, submitted.
+*IEEE Control Systems Letters*, to appear.
 
 3.- Feasibility and Regularity Analysis of Safe Stabilizing Controllers under Uncertainty [[pdf]](https://arxiv.org/pdf/2301.04603.pdf), <br />
 **P. Mestres** and J. Cortés, <br />
