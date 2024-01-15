@@ -3,4 +3,4 @@ layout: single
 author_profile: true
 ---
 
-Download it [here](assets/CV-Sept23.pdf)
+Download it [here](assets/CV-Jan2024.pdf)
