@@ -7,6 +7,10 @@ author_profile: true
 
 ### Journal Publications
 
+6.- Distributed Safe Navigation of Multi-Agent Systems using Control Barrier Function-Based Optimal Controllers [[pdf]](/assets/publications/DistributedCBFs_RALICRA23.pdf), <br />
+**P. Mestres**, C. Nieto-Granda and J. Cortés, <br />
+*IEEE Robotics and Automation Letters*, submitted.
+
 5.- Robinson’s Counterexample and Regularity Properties of Optimization-Based Controllers [[pdf]](/assets/publications/Robinson.pdf), <br />
 **P. Mestres**, A. Allibhoy and J. Cortés, <br />
 *Systems and Control Letters*, submitted.
