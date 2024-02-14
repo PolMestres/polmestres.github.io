@@ -11,7 +11,7 @@ author_profile: true
 **P. Mestres**, C. Nieto-Granda and J. Cortés, <br />
 *IEEE Robotics and Automation Letters*, submitted.
 
-5.- Robinson’s Counterexample and Regularity Properties of Optimization-Based Controllers [[pdf]](/assets/publications/Robinson.pdf), <br />
+5.- Robinson’s Counterexample and Regularity Properties of Optimization-Based Controllers [[pdf]](/assets/publications/Robinson-2.pdf), <br />
 **P. Mestres**, A. Allibhoy and J. Cortés, <br />
 *Systems and Control Letters*, submitted.
 
