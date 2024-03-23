@@ -34,6 +34,14 @@ M. Vaquero, **P. Mestres** and J. Cortés, <br />
 ---
 
 ### Conference Publications
+4.- Characterization of the Dynamical Properties of Safety Filters for Linear Planar Systems, <br />
+Y. Chen^* **P. Mestres**^*, E. Dall'anese and J. Cortés, <br />
+*63rd IEEE Conference on Decision and Control*, submitted.
+
+3.- Stabilization of Nonlinear Systems through Control Barrier Functions, <br />
+**P. Mestres**, K. Long, M. Leok, N. Atanasov and J. Cortés, <br />
+*63rd IEEE Conference on Decision and Control*, submitted.
+
 2.- Distributed and Anytime Algorithm for Network Optimization Problems with Separable Structure [[pdf]](/assets/publications/2023f_DistributedAnytime.pdf), <br />
 **P. Mestres** and J. Cortés, <br />
 *62nd IEEE Conference on Decision and Control*, to appear.
@@ -41,6 +49,8 @@ M. Vaquero, **P. Mestres** and J. Cortés, <br />
 1.- Safe Design for Controlling Epidemic Spreading under Heterogeneous Testing Capabilities [[pdf]](/assets/publications/2021_MeCo-acc.pdf), <br />
 **P. Mestres** and J. Cortés, <br />
 Proceedings of the *American Control Conference (ACC)*, Atlanta, Georgia, 2022, pp. 697-702.
+
+^* Equal contribution
 
 ---
 
