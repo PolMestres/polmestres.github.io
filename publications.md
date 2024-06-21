@@ -7,6 +7,10 @@ author_profile: true
 
 ### Journal Publications
 
+7.- Converse Theorems for Certificates of Safety and Stability [[pdf]](/assets/publications/ConverseSafety.pdf), <br />
+**P. Mestres**, and J. Cortés, <br />
+*IEEE Transactions on Automatic Control*, submitted.
+
 6.- Distributed Safe Navigation of Multi-Agent Systems using Control Barrier Function-Based Optimal Controllers [[pdf]](/assets/publications/DistributedCBFs-v2.pdf), <br />
 **P. Mestres**, C. Nieto-Granda and J. Cortés, <br />
 *IEEE Robotics and Automation Letters*, to appear.
