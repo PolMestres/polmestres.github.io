@@ -25,7 +25,7 @@ author_profile: true
 
 3.- Feasibility and Regularity Analysis of Safe Stabilizing Controllers under Uncertainty [[pdf]](https://arxiv.org/pdf/2301.04603.pdf), <br />
 **P. Mestres** and J. Cortés, <br />
-*Automatica*, to appear.
+*Automatica*, vol. 167, pp. 111800 (2024).
 
 2.- Optimization-Based Safe Stabilizing Feedback with Guaranteed Region of Attraction [[pdf]](https://arxiv.org/pdf/2203.12550.pdf), <br />
 **P. Mestres** and J. Cortés, <br />
@@ -33,18 +33,18 @@ author_profile: true
 
 1.- Resource-Aware Discretization of Accelerated Optimization Flows [[pdf]](https://arxiv.org/abs/2009.09135), <br />
 M. Vaquero, **P. Mestres** and J. Cortés, <br />
-*IEEE Transactions on Automatic Control*, 68 (4) (2023), to appear.
+*IEEE Transactions on Automatic Control*, 68 (4) (2023).
 
 ---
 
 ### Conference Publications
 4.- Characterization of the Dynamical Properties of Safety Filters for Linear Planar Systems, <br />
 Y. Chen\*, **P. Mestres\***, E. Dall'anese and J. Cortés, <br />
-*63rd IEEE Conference on Decision and Control*, submitted.
+*63rd IEEE Conference on Decision and Control*, to appear.
 
 3.- Stabilization of Nonlinear Systems through Control Barrier Functions, <br />
 **P. Mestres**, K. Long, M. Leok, N. Atanasov and J. Cortés, <br />
-*63rd IEEE Conference on Decision and Control*, submitted.
+*63rd IEEE Conference on Decision and Control*, to appear.
 
 2.- Distributed and Anytime Algorithm for Network Optimization Problems with Separable Structure [[pdf]](/assets/publications/2023f_DistributedAnytime.pdf), <br />
 **P. Mestres** and J. Cortés, <br />
