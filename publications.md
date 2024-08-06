@@ -15,7 +15,7 @@ author_profile: true
 **P. Mestres**, C. Nieto-Granda and J. Cortés, <br />
 *IEEE Robotics and Automation Letters*, to appear.
 
-5.- Regularity Properties of Optimization-Based Controllers [[pdf]](/assets/publications/Robinson-3.pdf), <br />
+5.- Regularity Properties of Optimization-Based Controllers [[pdf]](/assets/publications/RegularityPropertiesOptimizationBasedControllers2.pdf), <br />
 **P. Mestres**, A. Allibhoy and J. Cortés, <br />
 *European Journal of Control*, submitted.
 
