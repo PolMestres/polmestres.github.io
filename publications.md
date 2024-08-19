@@ -39,10 +39,10 @@ M. Vaquero, **P. Mestres** and J. Cortés, <br />
 
 ### Conference Publications
 4.- Characterization of the Dynamical Properties of Safety Filters for Linear Planar Systems, <br />
-Y. Chen\*, **P. Mestres\***, E. Dall'anese and J. Cortés, <br />
+Y. Chen\*, **P. Mestres\***, E. Dall'anese and J. Cortés [[pdf]](/assets/publications/CBFs_for_Stabilization.pdf), <br />
 *63rd IEEE Conference on Decision and Control*, to appear.
 
-3.- Stabilization of Nonlinear Systems through Control Barrier Functions, <br />
+3.- Stabilization of Nonlinear Systems through Control Barrier Functions [[pdf]](/assets/publications/CDC-safety-filters-6pgs.pdf), <br />
 **P. Mestres**, K. Long, M. Leok, N. Atanasov and J. Cortés, <br />
 *63rd IEEE Conference on Decision and Control*, to appear.
 
