@@ -8,7 +8,7 @@ author_profile: true
 ### Journal Publications
 
 8.- Equilibria and Their Stability Do Not Depend on the Control Barrier Function in Safe Optimization-Based Control [[pdf]](/assets/publications/final_YC_PM_Journal_Independence_of_CBF.pdf), <br />
-Y. Chen, **P. Mestres**, J. Cortés, and E. Dall'Anese <br />
+Y. Chen, **P. Mestres**, J. Cortés, and E. Dall'Anese, <br />
 *Automatica*, submitted.
 
 7.- Converse Theorems for Certificates of Safety and Stability [[pdf]](/assets/publications/ConverseSafety.pdf), <br />
