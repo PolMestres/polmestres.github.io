@@ -52,7 +52,7 @@ Y. Chen\*, **P. Mestres\***, E. Dall'anese and J. Cortés, <br />
 
 2.- Distributed and Anytime Algorithm for Network Optimization Problems with Separable Structure [[pdf]](/assets/publications/2023f_DistributedAnytime.pdf), <br />
 **P. Mestres** and J. Cortés, <br />
-*62nd IEEE Conference on Decision and Control*, to appear.
+*62nd IEEE Conference on Decision and Control*, Singapore, 2023, pp. 5457-5462.
 
 1.- Safe Design for Controlling Epidemic Spreading under Heterogeneous Testing Capabilities [[pdf]](/assets/publications/2021_MeCo-acc.pdf), <br />
 **P. Mestres** and J. Cortés, <br />
