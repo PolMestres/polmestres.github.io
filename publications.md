@@ -21,7 +21,7 @@ Y. Chen, **P. Mestres**, J. Cortés, and E. Dall'Anese, <br />
 
 5.- Regularity Properties of Optimization-Based Controllers [[pdf]](/assets/publications/RegularityPropertiesOptimizationBasedControllers2.pdf), <br />
 **P. Mestres**, A. Allibhoy and J. Cortés, <br />
-*European Journal of Control*, submitted.
+*European Journal of Control*, to appear.
 
 4.- Feasibility Analysis and Regularity Characterization of Distributionally Robust Safe Stabilizing Controllers [[pdf]](/assets/publications/CLF-CBF-DRO.pdf), <br />
 **P. Mestres**, K. Long, N. Atanasov and J. Cortés, <br />
