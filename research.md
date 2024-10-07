@@ -31,7 +31,9 @@ Safety refers to the ability to ensure by design that the evolution of the dynam
 We have studied a variety of different fundamental theoretical properties of CBF-based controllers, such as:
 
 -Converse and Existence results for Safety and Stability
+
 -Integration of CBFs with stable controllers
+
 -Independence of Dynamical Properties on the Choice of CBF
 
 ---
