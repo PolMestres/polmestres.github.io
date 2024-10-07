@@ -34,6 +34,8 @@ We have studied a variety of different fundamental theoretical properties of CBF
 
 -Integration of CBFs with stable controllers
 
+-Regularity Properties of CBF-based controllers
+
 -Independence of Dynamical Properties on the Choice of CBF
 
 ---
