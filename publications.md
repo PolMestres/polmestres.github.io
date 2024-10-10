@@ -7,6 +7,10 @@ author_profile: true
 
 ### Journal Publications
 
+9.- Safe and Dynamically-Feasible Motion Planning using Control Lyapunov and Barrier Functions [[pdf]](/assets/publications//Sampling_based_Motion_Planning_with_Safety_and_Stability_Compatibility_Verification.pdf), <br />
+P. Mestres, C. Nieto-Granda, and J. Cortés, <br />
+*IEEE Transactions on Robotics*, submitted.
+
 8.- Equilibria and Their Stability Do Not Depend on the Control Barrier Function in Safe Optimization-Based Control [[pdf]](/assets/publications/final_YC_PM_Journal_Independence_of_CBF.pdf), <br />
 Y. Chen, **P. Mestres**, J. Cortés, and E. Dall'Anese, <br />
 *Automatica*, submitted.
