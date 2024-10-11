@@ -12,7 +12,7 @@ which provide high-level motion plans that the low-level CBF-based controllers f
 ---
 ### Uncertainty Quantification for Safe Control
 
-In this line of work we develop techniques (such as Distributionally Robust Optimization or Gaussian Process Regression) to quantify the model uncertainty often encountered in real-world applications of safety critical control. 
+In this line of work we leverage different techniques such as Distributionally Robust Optimization or Gaussian Process Regression to quantify the model uncertainty often encountered in real-world applications of safety critical control. 
 We also develop ways to integrate such uncertainty quantifiers in the control design pipeline while still retaining the safety and computational efficiency guarantees.
 
 ---
