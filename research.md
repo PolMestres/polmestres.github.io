@@ -6,8 +6,8 @@ author_profile: true
 ---
 ### Safe Motion Planning with Control Barrier Functions
 
-Motivated by the difficulty of designing controllers with safety and stability guarantees, here we combine these controllers with sampling-based motion planning algorithms, 
-which provide high-level motion plans that the low-level CBF-based controllers follow.
+Motivated by the difficulty of designing controllers with safety and stability guarantees, in this line of work we seek to combine control barrier and Lyapunov function based controllers with sampling-based motion planning algorithms.
+This combination leads to dynamically feasible paths with safety and stability guarantees that can be executed by computationally efficient low-level controllers.
 
 ---
 ### Uncertainty Quantification for Safe Control
