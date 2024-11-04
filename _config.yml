@@ -110,7 +110,7 @@ author:
                       Mechanical and Aerospace Engineering <br/>
                       University of California, San Diego"
   location         : "La Jolla, CA"
-  email            : "pomestre@ucsd.edu <br/> pol@ucsd.edu"
+  email            : "pomestre@ucsd.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
