@@ -47,7 +47,7 @@ M. Vaquero, **P. Mestres** and J. Cortés, <br />
 
 ### Conference Publications
 5.- Anytime Safe Reinforcement Learning, <br />
-**P. Mestres\***, A. Marzabal and J. Cortés, <br />
+**P. Mestres**, A. Marzabal and J. Cortés, <br />
 *7th Annual Learning for Dynamics & Control Conference*, submitted.
 
 4.- Characterization of the Dynamical Properties of Safety Filters for Linear Planar Systems [[pdf]](/assets/publications/cbfs_stabilization_arxiv.pdf), <br />
