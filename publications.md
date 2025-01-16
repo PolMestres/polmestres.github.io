@@ -7,7 +7,12 @@ author_profile: true
 
 ### Journal Publications
 
-9.- Safe and Dynamically-Feasible Motion Planning using Control Lyapunov and Barrier Functions [[pdf]](/assets/publications//Sampling_based_Motion_Planning_with_Safety_and_Stability_Compatibility_Verification.pdf), <br />
+10.- Control Barrier Function-Based Safety Filters: Characterization of Undesired Equilibria, Unbounded
+Trajectories, and Limit Cycles [[pdf]](/assets/publications/Safety_Filters_Dynamical_Properties___Journal___PM_YC_ED_JC.pdf), <br />
+**P. Mestres**, Y. Chen, E. Dall'anese, and J. Cortés, <br />
+*Journal of Nonlinear Science*, submitted.
+
+9.- Safe and Dynamically-Feasible Motion Planning using Control Lyapunov and Barrier Functions [[pdf]](/assets/publications/Sampling_based_Motion_Planning_with_Safety_and_Stability_Compatibility_Verification.pdf), <br />
 **P. Mestres**, C. Nieto-Granda, and J. Cortés, <br />
 *IEEE Transactions on Robotics*, submitted.
 
