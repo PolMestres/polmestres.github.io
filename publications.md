@@ -53,15 +53,15 @@ M. Vaquero, **P. Mestres** and J. Cortés, <br />
 ### Conference Publications
 5.- Anytime Safe Reinforcement Learning, <br />
 **P. Mestres**, A. Marzabal and J. Cortés, <br />
-*7th Annual Learning for Dynamics & Control Conference*, submitted.
+*7th Annual Learning for Dynamics & Control Conference*, accepted.
 
 4.- Characterization of the Dynamical Properties of Safety Filters for Linear Planar Systems [[pdf]](/assets/publications/CDC-safety-filters-6pgs.pdf), <br />
 Y. Chen\*, **P. Mestres\***, E. Dall'Anese and J. Cortés, <br />
-*63rd IEEE Conference on Decision and Control*, to appear.
+*63rd IEEE Conference on Decision and Control*, Milan, Italy, 2024, pp. 2397-2402.
 
 3.- Stabilization of Nonlinear Systems through Control Barrier Functions [[pdf]](/assets/publications/cbfs_stabilization_arxiv.pdf), <br />
 **P. Mestres**, K. Long, M. Leok, N. Atanasov and J. Cortés, <br />
-*63rd IEEE Conference on Decision and Control*, to appear.
+*63rd IEEE Conference on Decision and Control*, Milan, Italy, 2024, pp. 8858-8863.
 
 2.- Distributed and Anytime Algorithm for Network Optimization Problems with Separable Structure [[pdf]](/assets/publications/2023f_DistributedAnytime.pdf), <br />
 **P. Mestres** and J. Cortés, <br />
