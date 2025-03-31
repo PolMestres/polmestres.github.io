@@ -52,7 +52,7 @@ M. Vaquero, **P. Mestres** and J. Cortés, <br />
 
 ### Conference Publications
 6.- Feedback Optimization with State Constraints through Control Barrier Functions, <br />
-G.Delimpaltadakis **P. Mestres**, J. Cortés and W. P. M. H. Heemels, <br />
+G.Delimpaltadakis\* **P. Mestres\***, J. Cortés and W. P. M. H. Heemels, <br />
 *64th IEEE Conference on Decision and Control*, submitted.
 
 5.- Anytime Safe Reinforcement Learning, <br />
