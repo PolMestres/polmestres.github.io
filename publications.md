@@ -51,7 +51,7 @@ M. Vaquero, **P. Mestres** and J. Cortés, <br />
 ---
 
 ### Conference Publications
-6.- Feedback Optimization with State Constraints through Control Barrier Functions, <br />
+6.- Feedback Optimization with State Constraints through Control Barrier Functions [[pdf]](/assets/publications/FeedbackOptimizationCBF.pdf), <br />
 G.Delimpaltadakis\* **P. Mestres\***, J. Cortés and W. P. M. H. Heemels, <br />
 *64th IEEE Conference on Decision and Control*, submitted.
 
