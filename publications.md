@@ -26,7 +26,7 @@ Y. Chen, **P. Mestres**, J. Cortés, and E. Dall'Anese, <br />
 
 6.- Distributed Safe Navigation of Multi-Agent Systems using Control Barrier Function-Based Optimal Controllers [[pdf]](/assets/publications/DistributedCBFs-v2.pdf), <br />
 **P. Mestres**, C. Nieto-Granda and J. Cortés, <br />
-*IEEE Robotics and Automation Letters*, to appear. To be presented at ICRA 2025.
+*IEEE Robotics and Automation Letters*, vol. 9, no. 7, pp. 6760-6767, 2024. To be presented at ICRA 2025.
 
 5.- Regularity Properties of Optimization-Based Controllers [[pdf]](/assets/publications/RegularityPropertiesOptimizationBasedControllers2.pdf), <br />
 **P. Mestres**, A. Allibhoy and J. Cortés, <br />
