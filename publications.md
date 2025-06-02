@@ -52,7 +52,7 @@ M. Vaquero, **P. Mestres** and J. Cortés, <br />
 
 ### Conference Publications
 7.- Neural Network-based Universal Formulas for Control [[pdf]](/assets/publications/UniversalFormulasNN.pdf), <br />
-**P. Mestres\**, J. Cortés and E. D. Sontag, <br />
+**P. Mestres**, J. Cortés and E. D. Sontag, <br />
 
 6.- Feedback Optimization with State Constraints through Control Barrier Functions [[pdf]](/assets/publications/FeedbackOptimizationCBF.pdf), <br />
 G.Delimpaltadakis\* **P. Mestres\***, J. Cortés and W. P. M. H. Heemels, <br />
