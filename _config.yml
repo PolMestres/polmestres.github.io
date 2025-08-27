@@ -106,10 +106,9 @@ analytics:
 author:
   name             : "Pol Mestres"
   avatar           : "/assets/photo-4.jpg"
-  bio              : "PhD student. <br/>
-                      Mechanical and Aerospace Engineering <br/>
-                      University of California, San Diego"
-  location         : "La Jolla, CA"
+  bio              : "Postdoc. <br/>
+                      Caltech"
+  location         : "Pasadena, CA"
   email            : "pomestre@ucsd.edu"
   links:
     - label: "Email"
