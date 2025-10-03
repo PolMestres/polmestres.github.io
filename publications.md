@@ -7,6 +7,10 @@ author_profile: true
 
 ### Journal Publications
 
+11.- Off-Policy Reinforcement Learning with Anytime Safety Guarantees via Robust Safe Gradient Flow [[pdf]](/assets/publications/SafeRL-TAC.pdf), <br />
+**P. Mestres**, A. Marzabal, and J. Cortés, <br />
+*IEEE Transactions on Automatic Control*, submitted.
+
 10.- Control Barrier Function-Based Safety Filters: Characterization of Undesired Equilibria, Unbounded
 Trajectories, and Limit Cycles [[pdf]](/assets/publications/Safety_Filters_Dynamical_Properties___Journal___PM_YC_ED_JC.pdf), <br />
 **P. Mestres**, Y. Chen, E. Dall'anese, and J. Cortés, <br />
@@ -22,11 +26,11 @@ Y. Chen, **P. Mestres**, J. Cortés, and E. Dall'Anese, <br />
 
 7.- Converse Theorems for Certificates of Safety and Stability [[pdf]](/assets/publications/ConverseSafety.pdf), <br />
 **P. Mestres**, and J. Cortés, <br />
-*IEEE Transactions on Automatic Control*, submitted.
+*IEEE Transactions on Automatic Control*, to appear.
 
 6.- Distributed Safe Navigation of Multi-Agent Systems using Control Barrier Function-Based Optimal Controllers [[pdf]](/assets/publications/DistributedCBFs-v2.pdf), <br />
 **P. Mestres**, C. Nieto-Granda and J. Cortés, <br />
-*IEEE Robotics and Automation Letters*, vol. 9, no. 7, pp. 6760-6767, 2024. To be presented at ICRA 2025.
+*IEEE Robotics and Automation Letters*, vol. 9, no. 7, pp. 6760-6767, 2024. Presented at ICRA 2025.
 
 5.- Regularity Properties of Optimization-Based Controllers [[pdf]](/assets/publications/RegularityPropertiesOptimizationBasedControllers2.pdf), <br />
 **P. Mestres**, A. Allibhoy and J. Cortés, <br />
@@ -51,12 +55,16 @@ M. Vaquero, **P. Mestres** and J. Cortés, <br />
 ---
 
 ### Conference Publications
+8.- Probabilistic Control Barrier Functions: Safety in Probability for Discrete-Time Stochastic Systems [[pdf]](/assets/publications/ProbCBFsACC.pdf), <br />
+**P. Mestres**, B. Werner, R. K. Cosner, A. D. Ames, <br />
+*2026 American Control Conference*, submitted.
+
 7.- Neural Network-based Universal Formulas for Control [[pdf]](/assets/publications/UniversalFormulasNN.pdf), <br />
 **P. Mestres**, J. Cortés and E. D. Sontag, <br />
 
 6.- Feedback Optimization with State Constraints through Control Barrier Functions [[pdf]](/assets/publications/FeedbackOptimizationCBF.pdf), <br />
 G.Delimpaltadakis\* **P. Mestres\***, J. Cortés and W. P. M. H. Heemels, <br />
-*64th IEEE Conference on Decision and Control*, submitted.
+*64th IEEE Conference on Decision and Control*, to appear.
 
 5.- Anytime Safe Reinforcement Learning, <br />
 **P. Mestres**, A. Marzabal and J. Cortés, <br />
