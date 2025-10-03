@@ -55,7 +55,7 @@ M. Vaquero, **P. Mestres** and J. Cortés, <br />
 ---
 
 ### Conference Publications
-8.- Probabilistic Control Barrier Functions: Safety in Probability for Discrete-Time Stochastic Systems [[pdf]](/assets/publications/ProbCBFsACC.pdf), <br />
+8.- Probabilistic Control Barrier Functions: Safety in Probability for Discrete-Time Stochastic Systems [[pdf]](/assets/publications/ACC2026_Probabilistic_CBFs.pdf), <br />
 **P. Mestres**, B. Werner, R. K. Cosner, A. D. Ames, <br />
 *2026 American Control Conference*, submitted.
 
