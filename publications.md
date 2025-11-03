@@ -93,4 +93,6 @@ Proceedings of the *American Control Conference (ACC)*, Atlanta, Georgia, 2022, 
 
 ### Thesis
 
+PhD: Control, Planning, and Learning with Control Barrier Functions in Safety-Critical Systems [[pdf]](assets/publications/PhDThesis-PolMestres-25.pdf)
+
 Bachelor's: Discretization of Optimization Flows through State-Triggered Control [[pdf]](assets/publications/memoria.pdf)
