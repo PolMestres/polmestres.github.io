@@ -15,7 +15,7 @@ K. Echigo, D. E. J. van Wijk, **P. Mestres**, E. Daş, J. W. Burdick, and A. D. 
 *IEEE Control Systems Letters*, 10 (2026), 979-984.
 
 13.- Safe Feedback Optimization through Control Barrier Functions [[pdf]](/assets/publications/SafeFeedbackOpt.pdf), <br />
-G. Delimpaltadakis, **P. Mestres**, J. Cortés, and W. M. P. H. Heemels, <br />
+G. Delimpaltadakis\*, **P. Mestres\***, J. Cortés, and W. M. P. H. Heemels, <br />
 *IEEE Transactions on Automatic Control*, submitted.
 
 12.- Universal formulas for safe control and their neural network approximations [[pdf]](/assets/publications/UniversalFormulasNN.pdf), <br />
