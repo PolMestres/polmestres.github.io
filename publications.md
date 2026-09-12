@@ -6,6 +6,19 @@ author_profile: true
 ---
 
 ### Journal Publications
+
+18.- Functional Observers for Output-Feedback Safety with High-Order Control Barrier Functions, <br /> 
+S. S. Mousavi, P. Mestres, and A. D. Ames, <br />
+*IEEE Control Systems Letters*, submitted.
+
+17.- Safe Stabilizing Linear Feedback: Necessary and Sufficient Conditions, Optimality, and Margins [[pdf]](/assets/publications/Linear_Safe_Control_LCSS.pdf), <br /> 
+P. Mestres, S. S. Mousavi, P. Ong, and A. D. Ames, <br />
+*IEEE Control Systems Letters*, submitted.
+
+16.- A Unified Perspective on Conformal Prediction and Wasserstein Distributional Robust Optimization for Uncertainty Quantification [[pdf]](/assets/publications/Kehan_ARC_2026.pdf), <br /> 
+K. Long, Y. Zhao, P. Mestres, L. Lindemann, N. Atanasov, and J. Cortés, <br />
+*Annual Reviews in Control*, submitted.
+
 15.- Probabilistic Control Barrier Functions for Systems with State Estimation Uncertainty using Sub-Gaussian Concentration [[pdf]](/assets/publications/Kazu_LCSS_2026.pdf), <br /> 
 K. Echigo, D. E. J. van Wijk, **P. Mestres**, E. Daş, J. W. Burdick, and A. D. Ames, <br />
 *IEEE Control Systems Letters*, to appear.
