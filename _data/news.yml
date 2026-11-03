@@ -1,9 +1,9 @@
-# News shown on the home page, newest first. The section stays hidden while this list is empty.
-# To add an item, replace the [] below with entries like:
-#
-# - date: Nov 2026
-#   text: Two papers accepted at CDC 2026.
-# - date: Oct 2026
+# News shown on the home page, newest first. The section is hidden while this list is empty.
+# To add an item, copy one of the entries below and edit it. Links work too, e.g.
 #   text: Invited talk at <a href="https://example.com">Some Workshop</a>.
 
-[]
+- date: August 2026
+  text: I attended the 23rd IFAC World Congress in Busan, Republic of Korea.
+
+- date: May 2026
+  text: I attended the 2026 American Control Conference in New Orleans, USA.

@@ -1,17 +1,17 @@
 # Everything the sidebar and header show. Edit here; every page updates.
-name: Pol Mestres Ramon
+name: Pol Mestres
 short_name: Pol Mestres
 position: Postdoctoral Scholar
 affiliation: Caltech
 location: Pasadena, CA
-photo: /assets/photo-4.jpg
-description: Postdoctoral Scholar at Caltech working on control theory, optimization, robotics, and networked systems.
+photo: /assets/photo-pol-2026.jpg
+description: Postdoctoral Scholar at Caltech working on decision-making architectures for autonomous systems with formally certifiable safety.
 
 # Links: leave a value empty to hide that link.
-email: pomestre@ucsd.edu          # ← this is the address your current site uses; change it to your current one
+email: mestres@caltech.edu
 cv: /assets/CV-Sep-2026.pdf       # ← when you upload a new CV, point this at it
 scholar:                          # e.g. https://scholar.google.com/citations?user=XXXXXXX
-github: https://github.com/polmestres
+github:                           # e.g. https://github.com/polmestres
 
 nav:
   - title: About
