@@ -1,6 +1,8 @@
 # News shown on the home page, newest first. The section is hidden while this list is empty.
 # To add an item, copy one of the entries below and edit it. Links work too, e.g.
 #   text: Invited talk at <a href="https://example.com">Some Workshop</a>.
+- date: October 2026
+  text: I am on the academic job market, seeking tenure-track faculty positions.
 
 - date: August 2026
   text: I attended the 23rd IFAC World Congress in Busan, Republic of Korea.
