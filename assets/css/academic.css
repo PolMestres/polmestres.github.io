@@ -1,0 +1,93 @@
+/* Design A — Classic Sidebar */
+:root {
+  --ink: #1d2433;
+  --muted: #5b6475;
+  --line: #e3e6ec;
+  --line-soft: #eef0f4;
+  --accent: #1F4E79;
+  --accent-hover: #123150;
+  --bg: #ffffff;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--bg);
+}
+a { color: var(--accent); }
+a:hover { color: var(--accent-hover); }
+img { max-width: 100%; height: auto; }
+
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+
+.skip-link { position: absolute; left: -9999px; top: 8px; padding: 8px 12px; background: var(--ink); color: #fff; z-index: 10; }
+.skip-link:focus { left: 8px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Header */
+.topbar { border-bottom: 1px solid var(--line); }
+.topbar-inner { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 32px; padding-top: 18px; padding-bottom: 18px; }
+.brand { font-weight: 600; font-size: 18px; color: var(--ink); text-decoration: none; }
+.topbar nav { display: flex; flex-wrap: wrap; gap: 8px 28px; font-size: 15px; }
+.topbar nav a { color: var(--muted); text-decoration: none; }
+.topbar nav a:hover { color: var(--ink); }
+.topbar nav a[aria-current="page"] { color: var(--ink); font-weight: 500; }
+
+/* Two-column layout that stacks on phones */
+.layout { display: flex; flex-wrap: wrap; gap: 48px 64px; align-items: flex-start; padding-top: 56px; padding-bottom: 72px; }
+
+.profile { flex: 1 1 240px; max-width: 300px; display: flex; flex-direction: column; gap: 20px; }
+.photo { width: 220px; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 12px; display: block; background: #e8eef6; }
+.name { margin: 0; font-size: 26px; line-height: 1.25; font-weight: 600; }
+.role { margin: 6px 0 0; color: var(--muted); font-size: 15px; }
+.links { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; font-size: 15px; }
+.links a { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; min-height: 28px; }
+
+.content { flex: 999 1 560px; min-width: 0; }
+.content > * + * { margin-top: 0; }
+.page-title { margin: 0 0 24px; font-size: 32px; line-height: 1.2; font-weight: 600; }
+.content h2 { margin: 48px 0 14px; font-size: 22px; line-height: 1.3; font-weight: 600; }
+.content h2:first-of-type { margin-top: 0; }
+.page-title + h2 { margin-top: 0; }
+.content p { margin: 0 0 12px; }
+.content ul:not(.pubs):not(.news) { margin: 0; padding-left: 20px; }
+.content ul:not(.pubs):not(.news) li + li { margin-top: 6px; }
+
+.section-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px; margin: 48px 0 18px; }
+.section-head h2 { margin: 0; }
+.section-head a { font-size: 15px; }
+
+/* Publications */
+.pubs { list-style: none; margin: 0; padding: 0; }
+.pub { padding: 20px 0; border-bottom: 1px solid var(--line-soft); }
+.pub:first-child { padding-top: 0; }
+.pub:last-child { border-bottom: 0; }
+.pub-title { font-weight: 500; text-decoration: none; }
+span.pub-title { color: var(--ink); }
+.content .pub-authors, .content .pub-venue { margin: 4px 0 0; color: var(--muted); font-size: 15px; }
+.pub-venue { margin-top: 2px !important; }
+.pub-authors strong { color: var(--ink); font-weight: 600; }
+.footnote { color: var(--muted); font-size: 14px; }
+
+/* News */
+.news { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.news li { display: flex; flex-wrap: wrap; gap: 4px 20px; }
+.news .date { flex: 0 0 96px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.news .text { flex: 1 1 300px; }
+
+.button { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 18px; border-radius: 8px; background: var(--accent); color: #fff !important; text-decoration: none; font-weight: 500; }
+.button:hover { background: var(--accent-hover); }
+
+.footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+.footer .wrap { padding-top: 24px; padding-bottom: 24px; }
+
+@media (max-width: 640px) {
+  .layout { padding-top: 32px; }
+  .profile { max-width: none; flex-direction: row; flex-wrap: wrap; align-items: center; }
+  .photo { width: 112px; }
+}

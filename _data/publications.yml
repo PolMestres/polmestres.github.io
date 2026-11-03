@@ -1,0 +1,235 @@
+# All publications, newest first within each type.
+#   type:     journal | conference | thesis
+#   selected: true  → also listed under "Selected publications" on the home page
+#   pdf:      a path in this repo (/assets/publications/...) or a full URL; leave empty if none
+# "P. Mestres" is bolded automatically in author lists. Use * for equal contribution.
+
+# ───────────── Journal ─────────────
+- type: journal
+  title: Functional Observers for Output-Feedback Safety with High-Order Control Barrier Functions
+  authors: S. S. Mousavi, P. Mestres, A. D. Ames
+  venue: IEEE Control Systems Letters
+  details: submitted
+  pdf:
+
+- type: journal
+  title: "Safe Stabilizing Linear Feedback: Necessary and Sufficient Conditions, Optimality, and Margins"
+  authors: P. Mestres, S. S. Mousavi, P. Ong, A. D. Ames
+  venue: IEEE Control Systems Letters
+  details: submitted
+  pdf: /assets/publications/Linear_Safe_Control_LCSS.pdf
+
+- type: journal
+  title: A Unified Perspective on Conformal Prediction and Wasserstein Distributional Robust Optimization for Uncertainty Quantification
+  authors: K. Long, Y. Zhao, P. Mestres, L. Lindemann, N. Atanasov, J. Cortés
+  venue: Annual Reviews in Control
+  details: submitted
+  pdf: /assets/publications/Kehan_ARC_2026.pdf
+
+- type: journal
+  title: Probabilistic Control Barrier Functions for Systems with State Estimation Uncertainty using Sub-Gaussian Concentration
+  authors: K. Echigo, D. E. J. van Wijk, P. Mestres, E. Daş, J. W. Burdick, A. D. Ames
+  venue: IEEE Control Systems Letters
+  details: to appear
+  pdf: /assets/publications/Kazu_LCSS_2026.pdf
+
+- type: journal
+  title: Dynamical Properties of Safety Filters for Linear Systems and Affine Control Barrier Functions
+  authors: P. Mestres, S. S. Mousavi, A. D. Ames
+  venue: IEEE Control Systems Letters
+  details: 10 (2026), 979–984
+  pdf: /assets/publications/LCSS_2026_Linear_Safety_Filters.pdf
+
+- type: journal
+  title: Safe Feedback Optimization through Control Barrier Functions
+  authors: G. Delimpaltadakis*, P. Mestres*, J. Cortés, W. M. P. H. Heemels
+  venue: IEEE Transactions on Automatic Control
+  details: submitted
+  pdf: /assets/publications/SafeFeedbackOpt.pdf
+
+- type: journal
+  selected: true
+  title: Universal Formulas for Safe Control and their Neural Network Approximations
+  authors: P. Mestres, J. Cortés, E. D. Sontag
+  venue: Systems and Control Letters
+  details: 215 (2026), 106480
+  pdf: /assets/publications/UniversalFormulasNN.pdf
+
+- type: journal
+  title: Off-Policy Reinforcement Learning with Anytime Safety Guarantees via Robust Safe Gradient Flow
+  authors: P. Mestres, A. Marzabal, J. Cortés
+  venue: IEEE Transactions on Automatic Control
+  details: submitted
+  pdf: /assets/publications/SafeRL-TAC.pdf
+
+- type: journal
+  selected: true
+  title: "Control Barrier Function-Based Safety Filters: Characterization of Undesired Equilibria, Unbounded Trajectories, and Limit Cycles"
+  authors: P. Mestres, Y. Chen, E. Dall'Anese, J. Cortés
+  venue: Journal of Nonlinear Science
+  details: 36 (2026), 41
+  pdf: /assets/publications/Safety_Filters_Dynamical_Properties___Journal___PM_YC_ED_JC.pdf
+
+- type: journal
+  selected: true
+  title: Safe and Dynamically-Feasible Motion Planning using Control Lyapunov and Barrier Functions
+  authors: P. Mestres, C. Nieto-Granda, J. Cortés
+  venue: IEEE Transactions on Robotics
+  details: 41 (2025), 6440–6459
+  pdf: /assets/publications/C-CLF-CBF-RRT-revision.pdf
+
+- type: journal
+  title: Independence of Closed-Loop Equilibria and Stability from the Choice of Control Barrier Function for a Given Set
+  authors: Y. Chen, P. Mestres, J. Cortés, E. Dall'Anese
+  venue: Automatica
+  details: 191 (2026), 113105
+  pdf: /assets/publications/final_YC_PM_Journal_Independence_of_CBF.pdf
+
+- type: journal
+  selected: true
+  title: Converse Theorems for Certificates of Safety and Stability
+  authors: P. Mestres, J. Cortés
+  venue: IEEE Transactions on Automatic Control
+  details: 70(12) (2025), 8016–8028
+  pdf: /assets/publications/ConverseSafety.pdf
+
+- type: journal
+  title: Distributed Safe Navigation of Multi-Agent Systems using Control Barrier Function-Based Optimal Controllers
+  authors: P. Mestres, C. Nieto-Granda, J. Cortés
+  venue: IEEE Robotics and Automation Letters
+  details: 9(7) (2024), 6760–6767. Presented at ICRA 2025
+  pdf: /assets/publications/DistributedCBFs-v2.pdf
+
+- type: journal
+  title: Regularity Properties of Optimization-Based Controllers
+  authors: P. Mestres, A. Allibhoy, J. Cortés
+  venue: European Journal of Control
+  details: 81 (2025), 101098. Keynote Invited Paper
+  pdf: /assets/publications/RegularityPropertiesOptimizationBasedControllers2.pdf
+
+- type: journal
+  title: Feasibility Analysis and Regularity Characterization of Distributionally Robust Safe Stabilizing Controllers
+  authors: P. Mestres, K. Long, N. Atanasov, J. Cortés
+  venue: IEEE Control Systems Letters
+  details: 8 (2024), 91–96
+  pdf: /assets/publications/CLF-CBF-DRO.pdf
+
+- type: journal
+  title: Feasibility and Regularity Analysis of Safe Stabilizing Controllers under Uncertainty
+  authors: P. Mestres, J. Cortés
+  venue: Automatica
+  details: 167 (2024), 111800
+  pdf: https://arxiv.org/pdf/2301.04603.pdf
+
+- type: journal
+  title: Optimization-Based Safe Stabilizing Feedback with Guaranteed Region of Attraction
+  authors: P. Mestres, J. Cortés
+  venue: IEEE Control Systems Letters
+  details: 7 (2023), 367–372. Joint submission to the 61st IEEE Conference on Decision and Control
+  pdf: https://arxiv.org/pdf/2203.12550.pdf
+
+- type: journal
+  title: Resource-Aware Discretization of Accelerated Optimization Flows
+  authors: M. Vaquero, P. Mestres, J. Cortés
+  venue: IEEE Transactions on Automatic Control
+  details: 68(4) (2023)
+  pdf: https://arxiv.org/abs/2009.09135
+
+# ───────────── Conference ─────────────
+- type: conference
+  title: Safety Filtering with an Infinite Number of Constraints
+  authors: M. Cohen, P. Ong, P. Mestres, A. D. Ames
+  venue: 65th IEEE Conference on Decision and Control
+  details: to appear
+  pdf: /assets/publications/MaxCohen_CDC_26.pdf
+
+- type: conference
+  title: Stability Analysis in Multi-Constraint Safety Filters for Linear Systems
+  authors: S. S. Mousavi, P. Mestres, A. D. Ames
+  venue: 65th IEEE Conference on Decision and Control
+  details: to appear
+  pdf: /assets/publications/Shima_CDC2026_stability.pdf
+
+- type: conference
+  title: Safe Policy Optimization via Control Barrier Function-based Safety Filters
+  authors: Y. Chen, P. Mestres, E. Dall'Anese, J. Cortés
+  venue: 65th IEEE Conference on Decision and Control
+  details: to appear
+  pdf: /assets/publications/Yiting_Safe_Policy_Opt.pdf
+
+- type: conference
+  title: Explicit Control Barrier Function-based Safety Filters and their Resource-Aware Computation
+  authors: P. Mestres, S. S. Mousavi, P. Ong, L. Yang, E. Das, J. W. Burdick, A. D. Ames
+  venue: IFAC World Congress 2026
+  details: to appear
+  pdf: /assets/publications/ExplicitCBF.pdf
+
+- type: conference
+  title: Risk-Aware Safety Filters with Poisson Safety Functions and Laplace Guidance Fields
+  authors: G. Bahati, R. M. Bena, M. Wilkinson, P. Mestres, R. K. Cosner, A. D. Ames
+  venue: 2026 American Control Conference
+  details: New Orleans, LA, 1942–1949
+  pdf: /assets/publications/RiskAwarePoisson.pdf
+
+- type: conference
+  selected: true
+  title: "Probabilistic Control Barrier Functions: Safety in Probability for Discrete-Time Stochastic Systems"
+  authors: P. Mestres, B. Werner, R. K. Cosner, A. D. Ames
+  venue: 2026 American Control Conference
+  details: New Orleans, LA, 110–117
+  pdf: /assets/publications/ACC2026_Probabilistic_CBFs.pdf
+
+- type: conference
+  title: Feedback Optimization with State Constraints through Control Barrier Functions
+  authors: G. Delimpaltadakis*, P. Mestres*, J. Cortés, W. P. M. H. Heemels
+  venue: 64th IEEE Conference on Decision and Control
+  details: Rio de Janeiro, Brazil, 2025, 7234–7239
+  pdf: /assets/publications/FeedbackOptimizationCBF.pdf
+
+- type: conference
+  title: Anytime Safe Reinforcement Learning
+  authors: P. Mestres, A. Marzabal, J. Cortés
+  venue: 7th Annual Learning for Dynamics & Control Conference
+  details: Ann Arbor, MI, 2025. PMLR 283, 221–232
+  pdf:
+
+- type: conference
+  title: Characterization of the Dynamical Properties of Safety Filters for Linear Planar Systems
+  authors: Y. Chen*, P. Mestres*, E. Dall'Anese, J. Cortés
+  venue: 63rd IEEE Conference on Decision and Control
+  details: Milan, Italy, 2024, 2397–2402
+  pdf: /assets/publications/CDC-safety-filters-6pgs.pdf
+
+- type: conference
+  title: Stabilization of Nonlinear Systems through Control Barrier Functions
+  authors: P. Mestres, K. Long, M. Leok, N. Atanasov, J. Cortés
+  venue: 63rd IEEE Conference on Decision and Control
+  details: Milan, Italy, 2024, 8858–8863
+  pdf: /assets/publications/cbfs_stabilization_arxiv.pdf
+
+- type: conference
+  title: Distributed and Anytime Algorithm for Network Optimization Problems with Separable Structure
+  authors: P. Mestres, J. Cortés
+  venue: 62nd IEEE Conference on Decision and Control
+  details: Singapore, 2023, 5457–5462
+  pdf: /assets/publications/2023f_DistributedAnytime.pdf
+
+- type: conference
+  title: Safe Design for Controlling Epidemic Spreading under Heterogeneous Testing Capabilities
+  authors: P. Mestres, J. Cortés
+  venue: American Control Conference
+  details: Atlanta, GA, 2022, 697–702
+  pdf: /assets/publications/2021_MeCo-acc.pdf
+
+# ───────────── Theses ─────────────
+- type: thesis
+  title: Control, Planning, and Learning with Control Barrier Functions in Safety-Critical Systems
+  authors: P. Mestres
+  venue: PhD thesis, UC San Diego
+  pdf: /assets/publications/PhDThesis-PolMestres-25.pdf
+
+- type: thesis
+  title: Discretization of Optimization Flows through State-Triggered Control
+  authors: P. Mestres
+  venue: Bachelor's thesis, Universitat Politècnica de Catalunya
+  pdf: /assets/publications/memoria.pdf

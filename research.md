@@ -1,7 +1,8 @@
 ---
-layout: single
-author_profile: true
----      
+layout: academic
+title: Research
+permalink: /research/
+---
 
 Here is a list of topics I'm currently interested in:
 
@@ -10,4 +11,3 @@ Here is a list of topics I'm currently interested in:
 - Using learning to speed up control
 - Systems theoretic perspectives on algorithm analysis and design
 - Hierarchical planning and control
-

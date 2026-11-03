@@ -1,0 +1,52 @@
+{% assign p = site.data.profile %}<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} · {% endif %}{{ p.name }}</title>
+<meta name="description" content="{{ page.description | default: p.description }}">
+<meta property="og:title" content="{% if page.title %}{{ page.title }} · {% endif %}{{ p.name }}">
+<meta property="og:description" content="{{ page.description | default: p.description }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+</head>
+<body>
+<a class="skip-link" href="#content">Skip to content</a>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">{{ p.short_name }}</a>
+    <nav aria-label="Main">
+      {% for item in p.nav %}<a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>{% endfor %}
+    </nav>
+  </div>
+</header>
+
+<div class="wrap layout">
+  <aside class="profile">
+    <img class="photo" src="{{ p.photo | relative_url }}" alt="Photo of {{ p.name }}" width="220" height="275">
+    <div>
+      <p class="name">{{ p.name }}</p>
+      <p class="role">{{ p.position }}<br>{{ p.affiliation }} · {{ p.location }}</p>
+    </div>
+    <ul class="links">
+      {% if p.email %}<li><a href="mailto:{{ p.email }}"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Email</a></li>{% endif %}
+      {% if p.cv %}<li><a href="{{ p.cv | relative_url }}"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/><path d="M8 13h8M8 17h5"/></svg>CV (PDF)</a></li>{% endif %}
+      {% if p.scholar %}<li><a href="{{ p.scholar }}"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/></svg>Google Scholar</a></li>{% endif %}
+      {% if p.github %}<li><a href="{{ p.github }}"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg>GitHub</a></li>{% endif %}
+    </ul>
+  </aside>
+
+  <main id="content" class="content">
+    {% if page.url == '/' %}<h1 class="visually-hidden">{{ p.name }}</h1>{% elsif page.title %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
+    {{ content }}
+  </main>
+</div>
+
+<footer class="footer">
+  <div class="wrap">© {{ site.time | date: '%Y' }} {{ p.name }}</div>
+</footer>
+</body>
+</html>

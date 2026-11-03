@@ -1,0 +1,5 @@
+<li class="pub">
+  {% if pub.pdf %}<a class="pub-title" href="{{ pub.pdf | relative_url }}">{{ pub.title }}</a>{% else %}<span class="pub-title">{{ pub.title }}</span>{% endif %}
+  <p class="pub-authors">{{ pub.authors | replace: "P. Mestres", "<strong>P. Mestres</strong>" }}</p>
+  <p class="pub-venue"><em>{{ pub.venue }}</em>{% if pub.details %}, {{ pub.details }}{% endif %}{% if pub.pdf %} · <a href="{{ pub.pdf | relative_url }}">PDF</a>{% endif %}</p>
+</li>

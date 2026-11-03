@@ -1,6 +1,7 @@
 ---
-layout: single
-author_profile: true
+layout: academic
+title: CV
+permalink: /cv/
 ---
 
-Download it [here](assets/CV-Sep-2026.pdf)
+<p><a class="button" href="{{ site.data.profile.cv | relative_url }}">Download CV (PDF)</a></p>

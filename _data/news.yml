@@ -1,0 +1,9 @@
+# News shown on the home page, newest first. The section stays hidden while this list is empty.
+# To add an item, replace the [] below with entries like:
+#
+# - date: Nov 2026
+#   text: Two papers accepted at CDC 2026.
+# - date: Oct 2026
+#   text: Invited talk at <a href="https://example.com">Some Workshop</a>.
+
+[]

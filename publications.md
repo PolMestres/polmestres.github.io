@@ -1,142 +1,22 @@
 ---
-layout: single
-author_profile: true
+layout: academic
+title: Publications
+permalink: /publications/
 ---
 
----
+<h2>Journal articles</h2>
+<ol class="pubs">
+{% for pub in site.data.publications %}{% if pub.type == "journal" %}{% include pub.html %}{% endif %}{% endfor %}
+</ol>
 
-### Journal Publications
+<h2>Conference papers</h2>
+<ol class="pubs">
+{% for pub in site.data.publications %}{% if pub.type == "conference" %}{% include pub.html %}{% endif %}{% endfor %}
+</ol>
 
-18.- Functional Observers for Output-Feedback Safety with High-Order Control Barrier Functions, <br /> 
-S. S. Mousavi, P. Mestres, and A. D. Ames, <br />
-*IEEE Control Systems Letters*, submitted.
+<p class="footnote">* Equal contribution.</p>
 
-17.- Safe Stabilizing Linear Feedback: Necessary and Sufficient Conditions, Optimality, and Margins [[pdf]](/assets/publications/Linear_Safe_Control_LCSS.pdf), <br /> 
-P. Mestres, S. S. Mousavi, P. Ong, and A. D. Ames, <br />
-*IEEE Control Systems Letters*, submitted.
-
-16.- A Unified Perspective on Conformal Prediction and Wasserstein Distributional Robust Optimization for Uncertainty Quantification [[pdf]](/assets/publications/Kehan_ARC_2026.pdf), <br /> 
-K. Long, Y. Zhao, P. Mestres, L. Lindemann, N. Atanasov, and J. Cortés, <br />
-*Annual Reviews in Control*, submitted.
-
-15.- Probabilistic Control Barrier Functions for Systems with State Estimation Uncertainty using Sub-Gaussian Concentration [[pdf]](/assets/publications/Kazu_LCSS_2026.pdf), <br /> 
-K. Echigo, D. E. J. van Wijk, **P. Mestres**, E. Daş, J. W. Burdick, and A. D. Ames, <br />
-*IEEE Control Systems Letters*, to appear.
-
-14.- Dynamical Properties of Safety Filters for Linear Systems and Affine Control Barrier Functions [[pdf]](/assets/publications/LCSS_2026_Linear_Safety_Filters.pdf), <br /> 
-**P. Mestres**, S. S. Mousavi and A. D. Ames, <br />
-*IEEE Control Systems Letters*, 10 (2026), 979-984.
-
-13.- Safe Feedback Optimization through Control Barrier Functions [[pdf]](/assets/publications/SafeFeedbackOpt.pdf), <br />
-G. Delimpaltadakis\*, **P. Mestres\***, J. Cortés, and W. M. P. H. Heemels, <br />
-*IEEE Transactions on Automatic Control*, submitted.
-
-12.- Universal formulas for safe control and their neural network approximations [[pdf]](/assets/publications/UniversalFormulasNN.pdf), <br />
-**P. Mestres**, J. Cortés, and E. D. Sontag, <br />
-*Systems and Control Letters*, 215 (2026), 106480.
-
-11.- Off-Policy Reinforcement Learning with Anytime Safety Guarantees via Robust Safe Gradient Flow [[pdf]](/assets/publications/SafeRL-TAC.pdf), <br />
-**P. Mestres**, A. Marzabal, and J. Cortés, <br />
-*IEEE Transactions on Automatic Control*, submitted.
-
-10.- Control Barrier Function-Based Safety Filters: Characterization of Undesired Equilibria, Unbounded
-Trajectories, and Limit Cycles [[pdf]](/assets/publications/Safety_Filters_Dynamical_Properties___Journal___PM_YC_ED_JC.pdf), <br />
-**P. Mestres**, Y. Chen, E. Dall'anese, and J. Cortés, <br />
-*Journal of Nonlinear Science*, 36 (2026), 41.
-
-9.- Safe and Dynamically-Feasible Motion Planning using Control Lyapunov and Barrier Functions [[pdf]](/assets/publications/C-CLF-CBF-RRT-revision.pdf), <br />
-**P. Mestres**, C. Nieto-Granda, and J. Cortés, <br />
-*IEEE Transactions on Robotics*, 41 (2025), 6440-6459.
-
-8.- Independence of closed-loop equilibria and stability from the choice of control barrier function for a given set [[pdf]](/assets/publications/final_YC_PM_Journal_Independence_of_CBF.pdf), <br />
-Y. Chen, **P. Mestres**, J. Cortés, and E. Dall'Anese, <br />
-*Automatica*, 191 (2026), 113105.
-
-7.- Converse Theorems for Certificates of Safety and Stability [[pdf]](/assets/publications/ConverseSafety.pdf), <br />
-**P. Mestres**, and J. Cortés, <br />
-*IEEE Transactions on Automatic Control*, 70 (12) (2025), 8016-8028.
-
-6.- Distributed Safe Navigation of Multi-Agent Systems using Control Barrier Function-Based Optimal Controllers [[pdf]](/assets/publications/DistributedCBFs-v2.pdf), <br />
-**P. Mestres**, C. Nieto-Granda, and J. Cortés, <br />
-*IEEE Robotics and Automation Letters*, vol. 9, no. 7, pp. 6760-6767, 2024. Presented at ICRA 2025.
-
-5.- Regularity Properties of Optimization-Based Controllers [[pdf]](/assets/publications/RegularityPropertiesOptimizationBasedControllers2.pdf), <br />
-**P. Mestres**, A. Allibhoy, and J. Cortés, <br />
-*European Journal of Control*, 81 (2025), 101098 (Keynote Invited Paper)
-
-4.- Feasibility Analysis and Regularity Characterization of Distributionally Robust Safe Stabilizing Controllers [[pdf]](/assets/publications/CLF-CBF-DRO.pdf), <br />
-**P. Mestres**, K. Long, N. Atanasov, and J. Cortés, <br />
-*IEEE Control Systems Letters*, vol. 8 (2024), pp. 91-96.
-
-3.- Feasibility and Regularity Analysis of Safe Stabilizing Controllers under Uncertainty [[pdf]](https://arxiv.org/pdf/2301.04603.pdf), <br />
-**P. Mestres** and J. Cortés, <br />
-*Automatica*, vol. 167, pp. 111800 (2024).
-
-2.- Optimization-Based Safe Stabilizing Feedback with Guaranteed Region of Attraction [[pdf]](https://arxiv.org/pdf/2203.12550.pdf), <br />
-**P. Mestres** and J. Cortés, <br />
-*IEEE Control Systems Letters*, (with joint submission to the *61st IEEE Conference on Decision and Control*) 7 (2023) 367-372.
-
-1.- Resource-Aware Discretization of Accelerated Optimization Flows [[pdf]](https://arxiv.org/abs/2009.09135), <br />
-M. Vaquero, **P. Mestres** and J. Cortés, <br />
-*IEEE Transactions on Automatic Control*, 68 (4) (2023).
-
----
-
-### Conference Publications
-12.- Safety Filtering with an Infinite Number of Constraints [[pdf]](/assets/publications/MaxCohen_CDC_26.pdf), <br />
-M. Cohen, P. Ong, **P. Mestres**, and A. D. Ames, <br />
-*65th IEEE Conference on Decision and Control*, to appear.
-
-11.- Stability Analysis in Multi-Constraint Safety Filters for Linear Systems [[pdf]](/assets/publications/Shima_CDC2026_stability.pdf), <br />
-S. S. Mousavi, **P. Mestres**, and A. D. Ames, <br />
-*65th IEEE Conference on Decision and Control*, to appear.
-
-10.- Safe Policy Optimization via Control Barrier Function-based Safety Filters [[pdf]](/assets/publications/Yiting_Safe_Policy_Opt.pdf), <br />
-Y. Chen, **P. Mestres**, E. Dall'Anese, and J. Cortés, <br />
-*65th IEEE Conference on Decision and Control*, to appear.
-
-9.- Explicit Control Barrier Function-based Safety Filters and their Resource-Aware Computation [[pdf]](/assets/publications/ExplicitCBF.pdf), <br />
-**P. Mestres**, S. S. Mousavi, P. Ong, L. Yang, E. Das, J. W. Burdick, and A. D. Ames, <br />
-*IFAC World Congress 2026*, to appear.
-
-8.- Risk-Aware Safety Filters with Poisson Safety Functions and Laplace Guidance Fields [[pdf]](/assets/publications/RiskAwarePoisson.pdf), <br />
-G. Bahati, R. M. Bena, M. Wilkinson, **P. Mestres**, R. K. Cosner, and A. D. Ames, <br />
-*2026 American Control Conference*, New Orleans, Louisiana, USA, pp. 1942-1949.
-
-7.- Probabilistic Control Barrier Functions: Safety in Probability for Discrete-Time Stochastic Systems [[pdf]](/assets/publications/ACC2026_Probabilistic_CBFs.pdf), <br />
-**P. Mestres**, B. Werner, R. K. Cosner, and A. D. Ames, <br />
-*2026 American Control Conference*, New Orleans, Louisiana, USA, pp. 110-117.
-
-6.- Feedback Optimization with State Constraints through Control Barrier Functions [[pdf]](/assets/publications/FeedbackOptimizationCBF.pdf), <br />
-G.Delimpaltadakis\* **P. Mestres\***, J. Cortés, and W. P. M. H. Heemels, <br />
-*64th IEEE Conference on Decision and Control*, Rio de Janeiro, Brazil, 2025, pp. 7234-7239
-
-5.- Anytime Safe Reinforcement Learning, <br />
-**P. Mestres**, A. Marzabal, and J. Cortés, <br />
-*7th Annual Learning for Dynamics & Control Conference*, Ann Arbor, Michigan, 2025, Proceedings of Machine Learning Research, volume 283, pp. 221-232
-
-4.- Characterization of the Dynamical Properties of Safety Filters for Linear Planar Systems [[pdf]](/assets/publications/CDC-safety-filters-6pgs.pdf), <br />
-Y. Chen\*, **P. Mestres\***, E. Dall'Anese, and J. Cortés, <br />
-*63rd IEEE Conference on Decision and Control*, Milan, Italy, 2024, pp. 2397-2402.
-
-3.- Stabilization of Nonlinear Systems through Control Barrier Functions [[pdf]](/assets/publications/cbfs_stabilization_arxiv.pdf), <br />
-**P. Mestres**, K. Long, M. Leok, N. Atanasov, and J. Cortés, <br />
-*63rd IEEE Conference on Decision and Control*, Milan, Italy, 2024, pp. 8858-8863.
-
-2.- Distributed and Anytime Algorithm for Network Optimization Problems with Separable Structure [[pdf]](/assets/publications/2023f_DistributedAnytime.pdf), <br />
-**P. Mestres** and J. Cortés, <br />
-*62nd IEEE Conference on Decision and Control*, Singapore, 2023, pp. 5457-5462.
-
-1.- Safe Design for Controlling Epidemic Spreading under Heterogeneous Testing Capabilities [[pdf]](/assets/publications/2021_MeCo-acc.pdf), <br />
-**P. Mestres** and J. Cortés, <br />
-Proceedings of the *American Control Conference (ACC)*, Atlanta, Georgia, 2022, pp. 697-702.
-
-\* Equal contribution
-
----
-
-### Thesis
-
-PhD: Control, Planning, and Learning with Control Barrier Functions in Safety-Critical Systems [[pdf]](assets/publications/PhDThesis-PolMestres-25.pdf)
-
-Bachelor's: Discretization of Optimization Flows through State-Triggered Control [[pdf]](assets/publications/memoria.pdf)
+<h2>Theses</h2>
+<ol class="pubs">
+{% for pub in site.data.publications %}{% if pub.type == "thesis" %}{% include pub.html %}{% endif %}{% endfor %}
+</ol>
