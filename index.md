@@ -9,14 +9,6 @@ I am a Postdoctoral Scholar at Caltech, advised by Prof. Aaron Ames. I received 
 
 My research interests lie at the intersection of control theory, optimization, robotics, and networked systems.
 
-## Research interests
-
-- Control barrier function theory
-- Using control theory to provide learning algorithms with guarantees
-- Using learning to speed up control
-- Systems-theoretic perspectives on algorithm analysis and design
-- Hierarchical planning and control
-
 <div class="section-head">
 <h2>Selected publications</h2>
 <a href="{{ '/publications/' | relative_url }}">All publications →</a>

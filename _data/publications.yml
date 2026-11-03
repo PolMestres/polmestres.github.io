@@ -56,6 +56,7 @@
   pdf: /assets/publications/UniversalFormulasNN.pdf
 
 - type: journal
+  selected: true
   title: Off-Policy Reinforcement Learning with Anytime Safety Guarantees via Robust Safe Gradient Flow
   authors: P. Mestres, A. Marzabal, J. Cortés
   venue: IEEE Transactions on Automatic Control
@@ -86,7 +87,6 @@
   pdf: /assets/publications/final_YC_PM_Journal_Independence_of_CBF.pdf
 
 - type: journal
-  selected: true
   title: Converse Theorems for Certificates of Safety and Stability
   authors: P. Mestres, J. Cortés
   venue: IEEE Transactions on Automatic Control
@@ -172,7 +172,6 @@
   pdf: /assets/publications/RiskAwarePoisson.pdf
 
 - type: conference
-  selected: true
   title: "Probabilistic Control Barrier Functions: Safety in Probability for Discrete-Time Stochastic Systems"
   authors: P. Mestres, B. Werner, R. K. Cosner, A. D. Ames
   venue: 2026 American Control Conference
