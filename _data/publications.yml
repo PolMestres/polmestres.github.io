@@ -144,6 +144,13 @@
   pdf: /assets/publications/Probabilistic_Safe_RL_L4DC.pdf
 
 - type: conference
+  title: Regions of Attraction of CBF-Based Safety Filters for Stable Planar Linear Systems
+  authors: A. K. Kiss, P. Mestres, A. Bartfai, S. S. Mousavi, A. D. Ames
+  venue: 2027 American Control Conference
+  details: submitted
+  pdf: /assets/publications/Regions_of_Attraction_Planar_Safety_Filters_ACC2027.pdf
+
+- type: conference
   title: Safety Filtering with an Infinite Number of Constraints
   authors: M. Cohen, P. Ong, P. Mestres, A. D. Ames
   venue: 65th IEEE Conference on Decision and Control
