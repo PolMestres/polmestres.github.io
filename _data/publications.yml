@@ -1,6 +1,6 @@
 # All publications, newest first within each type.
 #   type:     journal | conference | thesis
-#   selected: true  → also listed under "Selected publications" on the home page
+#   selected: 1, 2, 3… → also listed under "Selected publications" on the home page, in that order
 #   pdf:      a path in this repo (/assets/publications/...) or a full URL; leave empty if none
 # "P. Mestres" is bolded automatically in author lists. Use * for equal contribution.
 
@@ -10,7 +10,7 @@
   authors: S. S. Mousavi, P. Mestres, A. D. Ames
   venue: IEEE Control Systems Letters
   details: submitted
-  pdf:
+  pdf: /assets/publications/Functional_Observers_HOCBF.pdf
 
 - type: journal
   title: "Safe Stabilizing Linear Feedback: Necessary and Sufficient Conditions, Optimality, and Margins"
@@ -44,11 +44,11 @@
   title: Safe Feedback Optimization through Control Barrier Functions
   authors: G. Delimpaltadakis*, P. Mestres*, J. Cortés, W. M. P. H. Heemels
   venue: IEEE Transactions on Automatic Control
-  details: submitted
+  details: provisionally accepted
   pdf: /assets/publications/SafeFeedbackOpt.pdf
 
 - type: journal
-  selected: true
+  selected: 1
   title: Universal Formulas for Safe Control and their Neural Network Approximations
   authors: P. Mestres, J. Cortés, E. D. Sontag
   venue: Systems and Control Letters
@@ -56,15 +56,14 @@
   pdf: /assets/publications/UniversalFormulasNN.pdf
 
 - type: journal
-  selected: true
   title: Off-Policy Reinforcement Learning with Anytime Safety Guarantees via Robust Safe Gradient Flow
   authors: P. Mestres, A. Marzabal, J. Cortés
   venue: IEEE Transactions on Automatic Control
-  details: submitted
+  details: provisionally accepted
   pdf: /assets/publications/SafeRL-TAC.pdf
 
 - type: journal
-  selected: true
+  selected: 3
   title: "Control Barrier Function-Based Safety Filters: Characterization of Undesired Equilibria, Unbounded Trajectories, and Limit Cycles"
   authors: P. Mestres, Y. Chen, E. Dall'Anese, J. Cortés
   venue: Journal of Nonlinear Science
@@ -72,7 +71,7 @@
   pdf: /assets/publications/Safety_Filters_Dynamical_Properties___Journal___PM_YC_ED_JC.pdf
 
 - type: journal
-  selected: true
+  selected: 4
   title: Safe and Dynamically-Feasible Motion Planning using Control Lyapunov and Barrier Functions
   authors: P. Mestres, C. Nieto-Granda, J. Cortés
   venue: IEEE Transactions on Robotics
@@ -136,6 +135,14 @@
   pdf: https://arxiv.org/abs/2009.09135
 
 # ───────────── Conference ─────────────
+- type: conference
+  selected: 2
+  title: "Towards Probabilistically Safe Reinforcement Learning: Theory and Deployment on Humanoid and Aerial Robots"
+  authors: P. Mestres, V. Gabbita, J. H. K. Siu, S. A. Esteban, H. Serneke, J. W. Burdick, A. D. Ames
+  venue: Learning for Dynamics & Control Conference (L4DC) 2027
+  details: submitted
+  pdf: /assets/publications/Probabilistic_Safe_RL_L4DC.pdf
+
 - type: conference
   title: Safety Filtering with an Infinite Number of Constraints
   authors: M. Cohen, P. Ong, P. Mestres, A. D. Ames
